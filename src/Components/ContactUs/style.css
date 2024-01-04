@@ -1,0 +1,101 @@
+.contact-us-nav {
+    margin-top: 10px;
+    margin-left: -61px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.contact-us-nav .main-page {
+    color: #ADADAD;
+    font-family: Mulish;
+    font-size: 12px;
+    margin-right: -20px;
+}
+
+.contact-us-nav .contact {
+    margin-left: -21px;
+    color: #596C72;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contact-us-nav ul li:hover {
+    color: #FFC01F;
+}
+
+.contact-us-left h3 {
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 58px;
+}
+
+
+.contact-form input {
+    width: 315px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #353535;
+    color: #353535;
+    font-family: Mulish;
+    font-size: 12px;
+    background-color: #FFF;
+}
+
+.contact-form .message {
+    width: 650px;
+    height: 127px;
+    border: 1px solid #353535;
+    border-radius: 30px;
+    outline: none;
+    padding: 20px 0 0 20px;
+    resize: none;
+}
+
+.contact-us-left button {
+    width: 650px;
+    height: 40px;
+    background: #FFC01F;
+    color: #353535;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid #FFC01F;
+    margin-top: 30px;
+}
+
+.contact-us-left button:hover {
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+
+.contact-us-right {
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    padding: 74px 63px;
+    margin-top: 60px;
+}
+
+.contact-us-right h4 {
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 58px;
+}
+
+.contact-us-right p {
+    color: #69768B;
+    font-family: Mulish;
+    margin-bottom: 26px;
+}
+
+.contact-us-right p:nth-child(5) {
+    margin-top: 46px;
+}

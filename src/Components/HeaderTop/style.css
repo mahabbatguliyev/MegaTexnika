@@ -1,0 +1,25 @@
+.header-top {
+    background-color: #FFC01F;
+}
+
+.ht-left .address {
+    color: #353535;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.ht-right {
+    padding: 4px 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 0 24px;
+}
+

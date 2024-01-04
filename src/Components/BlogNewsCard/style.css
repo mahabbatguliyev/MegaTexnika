@@ -1,0 +1,24 @@
+.blog-news-card>div {
+    margin-top: 100px;
+
+}
+
+.card-text {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+}
+
+.card-text h6 {
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-text p {
+    color: #686868;
+    font-family: Mulish;
+    font-size: 14px;
+}

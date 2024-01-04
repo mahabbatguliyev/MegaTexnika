@@ -1,0 +1,85 @@
+#machinery {
+    margin-top: 210px;
+}
+
+.machinery-header h3 {
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.machinery-content {
+    padding-left: 25px;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+}
+
+.machinery-content .product-name {
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.machinery-content p {
+    color: #686868;
+    font-family: Mulish;
+}
+
+.machinery-content .year {
+    color: #B0ADAD;
+}
+
+.price p {
+    color: #FFC01F;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.price {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.machinery-content button {
+    width: 255px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #353535;
+    color: #353535;
+    background-color: #fff;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.machinery-content button:hover {
+    background: #FFC01F;
+    border: 1px solid #FFC01F;
+}
+
+
+
+.machinery-btn {
+    width: 189px;
+    height: 40px;
+    border-radius: 30px;
+    background: #FFC01F;
+    border: 1px solid #FFC01F;
+    color: #353535;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.5s;
+    margin-top: 60px;
+}
+
+.machinery-btn:hover {
+    background: #FFF;
+    box-shadow: 1px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    border: 1px solid #FFF
+}

@@ -1,0 +1,36 @@
+.technique-nav {
+    margin-top: 10px;
+    margin-left: -61px;
+}
+
+.technique-nav .link {
+    text-decoration: none;
+}
+
+.technique-nav .main-page {
+    margin-right: -20px;
+    color: #ADADAD;
+    font-family: Mulish;
+    font-size: 12px;
+}
+
+
+.technique-nav .technique {
+    margin-left: -21px;
+    color: #596C72;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.technique-nav ul li:hover {
+    color: #FFC01F;
+}
+
+.technique-header h2 {
+    margin-top: 56px;
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}

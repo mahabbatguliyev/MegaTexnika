@@ -1,0 +1,27 @@
+.terms-faq-header h3 {
+    margin-top: 70px;
+    color: #596C72;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+.terms-faq{
+    margin-top: 50px;
+}
+
+.accordion-header {
+    color: #353535;
+    font-family: Montserrat;
+    line-height: 24px;
+}
+
+.accordion-button::after {
+    content: '';
+    background-image: url('./src/assets/img/Group01.svg') !important;
+}
+
+.accordion-body {
+    color: #69768B;
+    font-family: Mulish;
+    line-height: 21px;
+}
