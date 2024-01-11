@@ -31,19 +31,19 @@ footer ul li {
 
 .copyright-left p {
     color: #353535;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 12px;
 }
 
 .copyright-right p {
     color: #353535;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 12px;
 }
 
 .copyright-right span {
     color: #353535;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;

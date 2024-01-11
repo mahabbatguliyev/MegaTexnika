@@ -14,7 +14,7 @@
 
 .tm-content h3 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
@@ -23,7 +23,7 @@
 
 .tm-content p {
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     line-height: 21px;
     text-align: left;
 }
@@ -35,7 +35,7 @@
     border: 1px solid #353535;
     color: #353535;
     background-color: #fff;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 700;
     float: left;

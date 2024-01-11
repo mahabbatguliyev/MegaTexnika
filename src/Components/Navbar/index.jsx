@@ -1,23 +1,24 @@
 import { Link, useLocation } from 'react-router-dom';
 import './style.css';
 const Navbar = () => {
-    function scrollTop() {
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
+
+    const scrollTop = () => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
-        })
-    }
+            behavior: 'smooth',
+        });
+    };
 
-
-    const loacation = useLocation();
-    const isHomePage = loacation.pathname === '/'
-    function toggleLeftSideBar() {
-
+    const toggleLeftSideBar = () => {
         const sidebar = document.querySelector('.sidebar');
-        sidebar.classList.toggle('active')
+        sidebar.classList.toggle('active');
         const barIcon = document.querySelector('.bar-icon');
-        barIcon.classList.toggle('bar-icon-hover')
-    }
+        barIcon.classList.toggle('bar-icon-hover');
+        const body = document.querySelector('body');
+        body.classList.toggle('sidebar-open');
+    };
 
     return (
         <div className="header-bottom">
@@ -53,8 +54,9 @@ const Navbar = () => {
                             <Link className='link' to={"/əlaqə"}><li>Əlaqə</li></Link>
                         </ul>
                     </nav>
-                    <li className='bar-icon' onClick={toggleLeftSideBar}><img src="./src/assets/img/bar.svg" alt="" /></li>
+                    <li className='bar-icon' onClick={toggleLeftSideBar}><img src="./src/assets/img/bar.svg" alt="bar icon" /></li>
                 </div>
+
                 {isHomePage ? <ul className='lang'>
                     <li>Az|</li>
                     <li>En</li>

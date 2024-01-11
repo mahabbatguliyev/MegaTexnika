@@ -6,7 +6,7 @@
 
 .hero-text h1 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
@@ -14,13 +14,13 @@
 
 .hero-text p {
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     line-height: 21px;
 }
 
 .hero-text .hero-btn {
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 700;
     width: 147px;

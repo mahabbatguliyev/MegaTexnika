@@ -1,7 +1,7 @@
 .terms-faq-header h3 {
     margin-top: 70px;
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 30px;
     font-weight: 700;
 }
@@ -11,7 +11,7 @@
 
 .accordion-header {
     color: #353535;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     line-height: 24px;
 }
 
@@ -22,6 +22,6 @@
 
 .accordion-body {
     color: #69768B;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     line-height: 21px;
 }

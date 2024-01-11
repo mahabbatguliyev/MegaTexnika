@@ -4,7 +4,7 @@
 
 .machinery-header h3 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 30px;
     font-weight: 700;
 }
@@ -16,14 +16,14 @@
 
 .machinery-content .product-name {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
 
 .machinery-content p {
     color: #686868;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
 }
 
 .machinery-content .year {
@@ -32,7 +32,7 @@
 
 .price p {
     color: #FFC01F;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
@@ -49,7 +49,7 @@
     border: 1px solid #353535;
     color: #353535;
     background-color: #fff;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 700;
     margin-top: 20px;
@@ -71,7 +71,7 @@
     background: #FFC01F;
     border: 1px solid #FFC01F;
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 700;
     transition: all 0.5s;

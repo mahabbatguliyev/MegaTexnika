@@ -4,7 +4,7 @@
 
 .news-header h3 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 50px;
@@ -23,21 +23,21 @@
 
 .news-content h6 {
     color: #191919;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-weight: 500;
     margin-top: 30px;
 }
 
 .news-content p {
     color: #69768B;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     margin-top: 16px;
     margin-bottom: 53px;
 }
 
 .news-content .date {
     color: #69768B;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 50px;

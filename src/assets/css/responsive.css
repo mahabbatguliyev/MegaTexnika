@@ -1,37 +1,3 @@
-@media (max-width:1500px) {
-
-    /* Brand */
-    .brand-img img {
-        width: 120px;
-    }
-
-    .brand-img ul li {
-        margin-right: 30px;
-    }
-
-}
-
-@media(max-width:1380px) {
-
-    /* About us  */
-    .about-us-content img {
-        width: 1230px;
-    }
-
-    .about-us-nav {
-        margin-left: -45px;
-    }
-
-    /* Blog  */
-    .blog-news-left h3 {
-        font-size: 40px;
-    }
-
-    .blog-news-left p {
-        font-size: 12px;
-    }
-}
-
 @media (max-width:1420px) {
     .header-bottom nav ul li {
         padding: 0 35px
@@ -92,7 +58,7 @@
 
 @media (max-width:1225px) {
     .header-bottom nav ul li {
-        padding: 0 25px
+        padding: 0 25px;
     }
 
     .hero .hero-img img {
@@ -514,7 +480,6 @@
 }
 
 @media (max-width:640px) {
-    /* Header */
 
     /* Sidebar  */
     .sidebar {
@@ -524,7 +489,11 @@
         left: -200px;
         top: 0;
         bottom: 0;
-        z-index: 11111;
+        z-index: 1;
+    }
+   
+    .sidebar-open {
+        overflow: hidden;
     }
 
     .active {
@@ -562,9 +531,7 @@
     .submenu li {
         background-color: #FFF;
         box-shadow: none;
-
     }
-
 
     .header-bottom .bar-icon {
         display: block;

@@ -9,7 +9,7 @@
 
 .blog-news-navbar .main-page {
     color: #ADADAD;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     margin-right: -20px;
 }
@@ -17,7 +17,7 @@
 .blog-news-navbar .blog {
     margin-left: -21px;
     color: #596C72;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 500;
 }
@@ -32,7 +32,7 @@
 
 .blog-news-left h3 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
@@ -40,7 +40,7 @@
 
 .blog-news-left p {
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     line-height: 21px;
 }
 

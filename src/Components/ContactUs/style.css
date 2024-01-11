@@ -9,7 +9,7 @@
 
 .contact-us-nav .main-page {
     color: #ADADAD;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     margin-right: -20px;
 }
@@ -17,7 +17,7 @@
 .contact-us-nav .contact {
     margin-left: -21px;
     color: #596C72;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 500;
 }
@@ -28,7 +28,7 @@
 
 .contact-us-left h3 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 30px;
     font-weight: 500;
     margin-top: 80px;
@@ -42,7 +42,7 @@
     border-radius: 30px;
     border: 1px solid #353535;
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     background-color: #FFF;
 }
@@ -62,7 +62,7 @@
     height: 40px;
     background: #FFC01F;
     color: #353535;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 12px;
     font-weight: 700;
     border-radius: 30px;
@@ -84,7 +84,7 @@
 
 .contact-us-right h4 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 58px;
@@ -92,7 +92,7 @@
 
 .contact-us-right p {
     color: #69768B;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     margin-bottom: 26px;
 }
 

@@ -12,13 +12,13 @@
 
 .card-text h6 {
     color: #596C72;
-    font-family: Montserrat;
+    font-family: Montserrat,sans-serif;
     font-size: 25px;
     font-weight: 600;
 }
 
 .card-text p {
     color: #686868;
-    font-family: Mulish;
+    font-family: Mulish,sans-serif;
     font-size: 14px;
 }
