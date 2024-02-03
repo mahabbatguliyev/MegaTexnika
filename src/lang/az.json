@@ -1,6 +1,15 @@
 {
     "navbar": {
         "home": "Əsas səhifə",
-        "about": "Haqqımızda"
+        "about": "Haqqımızda",
+        "techniques":"Texnikalar"
+
+    },
+    "hero":{
+        "buy your heavy equipment from us":"Ağır texnikalarınızı bizdən satın alın",
+        "detailed":"Ətraflı"
+    },
+    "aboutUs":{
+        "about us":"Haqqımızda"
     }
 }

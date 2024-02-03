@@ -1,5 +1,5 @@
 .header-bottom {
-    height: 118px;
+    padding: 2rem;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -32,6 +32,9 @@ nav ul li:hover {
     padding: 0 5px;
     font-weight: 600;
     cursor: pointer;
+}
+.lang2{
+    display: block;
 }
 
 .lang li:hover {

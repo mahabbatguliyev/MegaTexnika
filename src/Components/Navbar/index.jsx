@@ -2,6 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './style.css';
 import i18n from "i18next";
 import {useTranslation} from "react-i18next";
+import { useState } from 'react';
 const Navbar = () => {
     const location = useLocation();
     const isHomePage = location.pathname === '/';
@@ -38,6 +39,14 @@ const Navbar = () => {
         await i18n.changeLanguage(key)
     }
 
+
+//Lang
+    const [langImageVisible, setLangImageVisibility] = useState(true);
+
+    const toggleLangImageVisibility = () => {
+      setLangImageVisibility(!langImageVisible);
+    };
+    //Lang
     return (
         <div className="header-bottom">
             <div className="container d-flex justify-content-between">
@@ -52,7 +61,7 @@ const Navbar = () => {
                             <Link className='link' to={"/"}><li>{t('home')}</li></Link>
                             <Link className='link' to={"/haqqımızda"}><li>{t('about')}</li></Link>
                             <li className='has-submenu'>
-                                Texnikalar
+                                {t('techniques')}
                                 <img src="./src/assets/img/Vector2.svg" alt="Vector svg" />
                                 <Link to={'/texnikalar'}>
                                     <ul className='submenu'>
@@ -79,10 +88,24 @@ const Navbar = () => {
                     {langs.map(item => (
                         <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
                     ))}
+                    
                 </ul> :
-                    <img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
-                    />
+                <div>
+                    
+                   {langImageVisible ?( <img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
+onMouseEnter={toggleLangImageVisibility}
+                    />):
+                    <ul className='lang'>
+                   { langs.map(item => (
+                        <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
+                    ))}
+                    </ul>}
+                   
+                    </div>
+                   
                 }
+                
+
                 <div onClick={scrollTop} className="up">
                     <img src="./src/assets/img/up.svg" alt="Up" />
                 </div>

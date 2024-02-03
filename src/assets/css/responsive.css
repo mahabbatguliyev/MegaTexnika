@@ -364,10 +364,12 @@
 
     .hero-text h1 {
         font-size: 21px;
+        line-height: 30px;
     }
 
     .hero-text p {
         font-size: 16px;
+        width: 100%;
     }
 
     .hero-bg-img {

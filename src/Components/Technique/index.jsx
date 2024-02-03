@@ -25,8 +25,8 @@ const Technique = () => {
     return (
         <div className="container">
             <div className="technique-button text-center">
-                {lists.map(list => {
-                    return <button className='mt-2' onClick={() => { filterData(list.title) }}>{list.title}</button>
+                {lists.map((list, i) => {
+                    return <button key={i} className='mt-2' onClick={() => { filterData(list.title) }}>{list.title}</button>
                 })}
             </div>
             <div className="row">

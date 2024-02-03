@@ -13,6 +13,7 @@
 }
 
 .hero-text p {
+    width: 80%;
     color: #353535;
     font-family: Mulish,sans-serif;
     line-height: 21px;

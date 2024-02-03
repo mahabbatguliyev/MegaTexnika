@@ -1,6 +1,15 @@
 {
     "navbar": {
         "home": "Главная страница",
-        "about": "О нас"
+        "about": "О нас",
+        "techniques": "Техника"
+    },
+    "hero": {
+        "buy your heavy equipment from us": "Купите у нас тяжелую технику",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled": "Лорем Ипсум — это просто текст-пустышка полиграфической и наборной индустрии. Лорем Ипсум был стандартным текстом-пустышкой в ​​отрасли с 1500-х годов, когда неизвестный печатник",
+        "detailed": "Более"
+    },
+    "aboutUs": {
+        "about us": "О нас"
     }
 }
