@@ -2,14 +2,16 @@ import React from 'react'
 import './style.css'
 import '../../assets/css/reset.css';
 import { products } from '../ProductData.jsx';
-const product = products.slice(0, 8)
+import { useTranslation } from 'react-i18next';
 const Category = () => {
+    const product = products.slice(0, 8);
+    const { t } = useTranslation('category');
     return (
         <section id='category'>
             <div className="container">
                 <div className="row">
                     <div className="category-header">
-                        <h3>Kateqoriyalar</h3>
+                        <h3>{t('categories')}</h3>
                     </div>
                 </div>
                 <div className="row flex-wrap">

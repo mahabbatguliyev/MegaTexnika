@@ -1,20 +1,32 @@
+import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './style.css';
+import { useTranslation } from "react-i18next";
 import i18n from "i18next";
-import {useTranslation} from "react-i18next";
-import { useState } from 'react';
+import './style.css';
+
 const Navbar = () => {
     const location = useLocation();
     const isHomePage = location.pathname === '/';
-
-    const {t} = useTranslation('navbar')
+    const { t } = useTranslation('navbar');
+    
+    const [isVisible, setIsVisible] = useState(false);
 
     const scrollTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
+        window.scrollTo(0, 0);
     };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY;
+            setIsVisible(scrollY > 170);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const toggleLeftSideBar = () => {
         const sidebar = document.querySelector('.sidebar');
@@ -25,28 +37,24 @@ const Navbar = () => {
         body.classList.toggle('sidebar-open');
     };
 
-    const langElement = (value,label) => {
-        return {value,label}
-    }
+    const langElement = (value, label) => {
+        return { value, label };
+    };
 
     const langs = [
-        langElement('az','Az'),
-        langElement('en','En'),
-        langElement('ru','Ru'),
-    ]
+        langElement('az', 'Az'),
+        langElement('en', 'En'),
+        langElement('ru', 'Ru'),
+    ];
 
     const changeLang = async (key) => {
-        await i18n.changeLanguage(key)
-    }
-
-
-//Lang
-    const [langImageVisible, setLangImageVisibility] = useState(true);
+        await i18n.changeLanguage(key);
+    };
 
     const toggleLangImageVisibility = () => {
-      setLangImageVisibility(!langImageVisible);
+        setLangImageVisibility(!langImageVisible);
     };
-    //Lang
+
     return (
         <div className="header-bottom">
             <div className="container d-flex justify-content-between">
@@ -65,20 +73,20 @@ const Navbar = () => {
                                 <img src="./src/assets/img/Vector2.svg" alt="Vector svg" />
                                 <Link to={'/texnikalar'}>
                                     <ul className='submenu'>
-                                        <li>Avtokranlar</li>
-                                        <li>Traktorlar</li>
-                                        <li>Qaldırıcı səbətlər</li>
-                                        <li>Forkliftlər</li>
-                                        <li>Katok</li>
-                                        <li>Shacman</li>
-                                        <li>Bobcat</li>
-                                        <li>Pompa</li>
+                                        <li>{t('auto cranes')}</li>
+                                        <li>{t('tractors')}</li>
+                                        <li>{t('lifting baskets')}</li>
+                                        <li>{t('forklifts')}</li>
+                                        <li>{t('katok')}</li>
+                                        <li>{t('shacman')}</li>
+                                        <li>{t('bobcat')}</li>
+                                        <li>{t('pump')}</li>
                                     </ul>
                                 </Link>
                             </li>
-                            <Link className='link' to={"/icarə şərtləri"}><li>İcarə şərtləri</li></Link>
-                            <Link className='link' to={'/blog'}><li>Blog</li></Link>
-                            <Link className='link' to={"/əlaqə"}><li>Əlaqə</li></Link>
+                            <Link className='link' to={"/icarə şərtləri"}><li>{t('terms of lease')}</li></Link>
+                            <Link className='link' to={'/blog'}><li>{t('blog')}</li></Link>
+                            <Link className='link' to={"/əlaqə"}><li>{t('contact')}</li></Link>
                         </ul>
                     </nav>
                     <li className='bar-icon' onClick={toggleLeftSideBar}><img src="./src/assets/img/bar.svg" alt="bar icon" /></li>
@@ -88,27 +96,25 @@ const Navbar = () => {
                     {langs.map(item => (
                         <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
                     ))}
-                    
-                </ul> :
-                <div>
-                    
-                   {langImageVisible ?( <img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
-onMouseEnter={toggleLangImageVisibility}
-                    />):
-                    <ul className='lang'>
-                   { langs.map(item => (
-                        <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
-                    ))}
-                    </ul>}
-                   
-                    </div>
-                   
-                }
-                
 
-                <div onClick={scrollTop} className="up">
+                </ul> :
+                    <div>
+
+                        {isVisible && (<img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
+                            onMouseEnter={toggleLangImageVisibility}
+                        />) ||
+                            <ul className='lang'>
+                                {langs.map(item => (
+                                    <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
+                                ))}
+                            </ul>}
+
+                    </div>
+
+                }
+                {isVisible && <div className="up" onClick={scrollTop}>
                     <img src="./src/assets/img/up.svg" alt="Up" />
-                </div>
+                </div>}
             </div>
         </div>
     );

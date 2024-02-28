@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { products } from '../ProductData.jsx/index.jsx'
 import './style.css'
+import { useTranslation } from 'react-i18next';
 const Technique = () => {
+    const {t:t2}=useTranslation('machinery');
     const [items, setItems] = useState(products)
 
     const filterData = (title) => {
@@ -35,14 +37,14 @@ const Technique = () => {
                         <div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex">
                             <div className="technique-card-content">
                                 <img src={item.image} alt="img" />
-                                <h6 className='product-name'>Məhsulun adı</h6>
+                                <h6 className='product-name'>{t2('product name')}</h6>
                                 <p>{item.productName}</p>
                                 <span className='year'>{item.year}</span>
                                 <div className="price">
-                                    <p>{item.monthlyPrice} AZN /ay</p>
-                                    <p>{item.dailyPrice} AZN /gün</p>
+                                    <p>{item.monthlyPrice} {t2('azn /month')}</p>
+                                    <p>{item.dailyPrice} {t2('azn /day')}</p>
                                 </div>
-                                <button>İcarə et</button>
+                                <button>{t2('rent it')}</button>
                             </div>
                         </div>
                     ))}

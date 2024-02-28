@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useTransition } from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 const Footer = () => {
+    const { t } = useTranslation('footer');
+    const { t: t2 } = useTranslation('navbar');
     return (
         <footer>
             <div className="container">
@@ -14,15 +17,16 @@ const Footer = () => {
                     <div className="col-lg-5 col-md-7 col-sm-12 d-flex">
                         <div className="footer-menu">
                             <ul>
-                                <Link className='link' to={"/haqqımızda"}><li>Haqqımızda</li></Link>
-                                <Link className='link' to={"/texnikalar"}><li>Texnikalar</li></Link>
-                                <Link className='link' to={'/blog'}><li>Blog</li></Link>
-                                <Link className='link' to={'/əlaqə'}><li>Əlaqə</li></Link>
+                                <Link className='link' to={"/haqqımızda"}><li>{t2('about')}</li></Link>
+                                <Link className='link' to={"/texnikalar"}><li>{t2('techniques')}</li></Link>
+                                <Link className='link' to={"/texnikalar"}><li>{t2('terms of lease')}</li></Link>
+                                <Link className='link' to={'/blog'}><li>{t2('blog')}</li></Link>
+                                <Link className='link' to={'/əlaqə'}><li>{t2('contact')}</li></Link>
                             </ul>
                         </div>
                         <div className="footer-contact">
                             <ul>
-                                <li>Fətəli Xan Xoyski 111A, Bakı Azərbaycan</li>
+                                <li>{t('fatali Khan Khoyski 111A, Baku Azerbaijan')}</li>
                                 <li>+994(51) 123 45 67</li>
                                 <li>+994(12) 123 45 67</li>
                                 <li>info@lmegatexnika.az</li>
@@ -31,7 +35,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12">
                         <div className="footer-social">
-                            <p>Qrafik (iş saatlarımız): B.e - Ş. 10:00 - 19:00</p>
+                            <p>{t('schedule (our working hours): Mon-Sat. 10:00 - 19:00')}</p>
                             <ul className='footer-social-list'>
                                 <li>
                                     <Link to={"#"}>
@@ -54,10 +58,10 @@ const Footer = () => {
                 </div>
                 <div className="footer-copyright d-flex justify-content-between">
                     <div className="copyright-left">
-                        <p>© 2022 Megatexnika / Müəllif hüquqları</p>
+                        <p>{t('© 2022 Megatechnika / Copyright')}</p>
                     </div>
                     <div className="copyright-right">
-                        <p>Design by <span>jedai</span></p>
+                        <p>{t('design by')} <span>jedai</span></p>
                     </div>
                 </div>
             </div>

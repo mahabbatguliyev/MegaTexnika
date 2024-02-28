@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 const AboutUs = () => {
     const { t } = useTranslation('navbar');
     const { t:t2 } = useTranslation('aboutUs');
+    const { t:t3 } = useTranslation('hero');
+
 
     return (
         <section id='about-us'>
@@ -19,9 +21,13 @@ const AboutUs = () => {
             <div className="about-us-content">
                 <h3>megaTexnika</h3>
                 <p>{t2('about us')}</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br /> when an unknown printer took a galley of type and scrambled</p>
+                <p>{t3("lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled")}</p>
+                </div>
+                <div className='about-us-img'>
+
+               
                 <img src="./src/assets/img/image 1(1).svg" alt="About img" />
-            </div>
+                </div>
         </section>
     );
 }

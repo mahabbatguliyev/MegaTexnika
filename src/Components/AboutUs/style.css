@@ -33,7 +33,11 @@
 .about-us-nav ul li:hover {
     color: #FFC01F;
 }
-
+.about-us-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .about-us-content h3 {
     color: #596C72;
     font-family: Montserrat,sans-serif;
@@ -53,9 +57,11 @@
     text-align: center;
     font-family: Mulish,sans-serif;
     line-height: 21px;
+    width: 560px;
+    
 }
 
-.about-us-content img {
+.about-us-img img {
     margin-top: 80px;
     box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
     margin-bottom: 120px;

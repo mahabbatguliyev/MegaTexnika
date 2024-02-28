@@ -2,14 +2,85 @@
     "navbar": {
         "home": "Əsas səhifə",
         "about": "Haqqımızda",
-        "techniques":"Texnikalar"
-
+        "techniques": "Texnikalar",
+        "auto cranes": "Avtokranlar",
+        "tractors": "Traktorlar",
+        "lifting baskets": "Qaldırıcı səbətlər",
+        "forklifts": "Forkliftlər",
+        "katok": "Katok",
+        "shacman": "Shacman",
+        "bobcat": "Bobcat",
+        "pump": "Pompa",
+        "terms of lease": "İcarə Şərtləri",
+        "blog": "Blog",
+        "contact": "Əlaqə"
     },
-    "hero":{
-        "buy your heavy equipment from us":"Ağır texnikalarınızı bizdən satın alın",
-        "detailed":"Ətraflı"
+    "hero": {
+        "buy your heavy equipment from us": "Ağır texnikalarınızı bizdən satın alın",
+        "detailed": "Ətraflı",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"
     },
-    "aboutUs":{
-        "about us":"Haqqımızda"
-    }
+    "category": {
+        "categories": "Kateqoriyalar"
+    },
+    "testedMachinery": {
+        "mega Technika-tried and tested techniques": "Mega Texnika-da sınaqdan keçirilmiş texnikalar",
+        "about us": "Haqqımızda"
+    },
+    "machinery": {
+        "techniques": "Texnikalar",
+        "product name": "Məhsulun adı",
+        "azn /month": "AZN /ay",
+        "azn /day": "AZN /gün",
+        "rent it": "İcarə et",
+        "see all": "Hamısına bax"
+    },
+    "brand": {
+        "brand": "Marka"
+    },
+    "news": {
+        "news": "Yeniliklər",
+        "lorem Ipsum is simply dummy":"Lorem Ipsum is simply dummy",
+        "lorem Ipsum has been the industry's standard dummy text ever since":"Lorem Ipsum has been the industry's standard dummy text ever since",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry...":"Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+    },
+    "contact": {
+        "contact us !": "Bizimlə əlaqə saxla!",
+        "first name and last name": "Ad,Soyad",
+        "company name": "Şirkətin adı",
+        "e-mail": "E-mail",
+        "phone": "Telefon",
+        "send": "Göndər"
+    },
+    "whyUs": {
+        "why should you choose us": "Niyə bizi seçməlisiniz"
+    },
+    "footer": {
+        "fatali Khan Khoyski 111A, Baku Azerbaijan": "Fətəli Xan Xoyski 111A, Bakı Azərbaycan",
+        "schedule (our working hours): Mon-Sat. 10:00 - 19:00": "Qrafik (iş saatlarımız): B.e - Ş. 10:00 - 19:00",
+        "© 2022 Megatechnika / Copyright": "© 2022   Megatexnika / Müəllif hüquqları",
+        "design by": "Dizayn"
+    },
+    "aboutUs": {
+        "about us": "Haqqımızda"
+    },
+    "terms": {
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+    },
+    "termsFaq": {
+        "frequently asked questions": "Tez-tez verilən suallar",
+        "lorem Ipsum is simply dummy text of the printing and type?": "Lorem Ipsum is simply dummy text of the printing and type?",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer"
+    },
+    "blogNews": {
+        "innovations": "Yeniliklər",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+    },
+    "blogNewsCard": {
+        "the name of the news": "Xəbərin adı"
+    },
+    "contactUs":{
+        "write to us !":"Bizə yazın !",
+        "message":"Mesaj"
+      }
 }

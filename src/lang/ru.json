@@ -2,14 +2,87 @@
     "navbar": {
         "home": "Главная страница",
         "about": "О нас",
-        "techniques": "Техника"
+        "techniques": "Техника",
+        "auto cranes": "Автокраны",
+        "tractors": "Тракторы",
+        "lifting baskets": "Подъемные корзины",
+        "forklifts": "Вилочные погрузчики",
+        "katok": "Каток",
+        "shacman": "Шакман",
+        "bobcat": "Бобкэт",
+        "pump": "Насос",
+        "terms of lease": "Условия аренды",
+        "blog": "Блог",
+        "contact": "Контакт"
     },
     "hero": {
         "buy your heavy equipment from us": "Купите у нас тяжелую технику",
         "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled": "Лорем Ипсум — это просто текст-пустышка полиграфической и наборной индустрии. Лорем Ипсум был стандартным текстом-пустышкой в ​​отрасли с 1500-х годов, когда неизвестный печатник",
         "detailed": "Более"
     },
+    "category": {
+        "categories": "Категории"
+    },
+    "testedMachinery": {
+        "mega Technika-tried and tested techniques": "Мега Техника–проверенные методы",
+        "about us": "О нас",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum": "Lorem Ipsum — это просто текст-пустышка полиграфической и наборной индустрии. Lorem Ipsum был стандартным текстом-пустышкой в отрасли с 1500-х годов, когда неизвестный типограф взял гранку шрифтов и переделал ее, чтобы сделать книгу образцов шрифтов. Он пережил не только пять столетий, но и скачок в электронную верстку, оставшись по существу неизменным. Он был популяризирован в 1960-х годах с выпуском листов Letraset, содержащих отрывки из Lorem Ipsum, а в последнее время с появлением программного обеспечения для настольных издательских систем, такого как Aldus PageMaker, включая версии Lorem Ipsum."
+    },
+    "machinery": {
+        "techniques": "Техники",
+        "product name": "Наименование товара",
+        "azn /month": "AZN /Месяц",
+        "azn /day": "AZN /День",
+        "rent it": "Арендуйте это",
+        "see all": "Увидеть все"
+    },
+    "brand": {
+        "brand": "Марка"
+    },
+    "news": {
+        "news": "Новости",
+        "lorem Ipsum is simply dummy": "Лорем Ипсум просто пустышка",
+        "lorem Ipsum has been the industry's standard dummy text ever since": "С тех пор Lorem Ipsum стал стандартным текстом-пустышкой в ​​отрасли.",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry...": "Лорем Ипсум— это просто текст-пустышка полиграфической и наборной индустрии..."
+    },
+    "contact": {
+        "contact us !": "Связаться с нами!",
+        "first name and last name": "Имя и фамилия",
+        "company name": "Название компании",
+        "e-mail": "Электронная почта",
+        "phone": "Телефон",
+        "send": "Отправлять"
+    },
+    "whyUs": {
+        "why should you choose us": "Почему вам следует выбрать нас",
+        "it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English": "Давно установленный факт, что читатель будет отвлекаться на читаемое содержимое страницы, когда смотрит на ее макет. Смысл использования Lorem Ipsum заключается в том, что он имеет более или менее нормальное распределение букв, в отличие от использования «Содержимое здесь, содержимое здесь», что делает его похожим на читаемый английский язык."
+    },
+    "footer": {
+        "fatali Khan Khoyski 111A, Baku Azerbaijan": "Фатали Хана Хойского 111А, Баку Азербайджан",
+        "schedule (our working hours): Mon-Sat. 10:00 - 19:00": "График работы (время работы): Пн-Сб. 10:00 - 19:00",
+        "© 2022 Megatechnika / Copyright": "© 2022 Мегатехника / Авторские права",
+        "design by": "Дизайн"
+    },
     "aboutUs": {
         "about us": "О нас"
+    },
+    "terms": {
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum": "Лорем Ипсум — это просто текст-пустышка полиграфической и наборной индустрии. Lorem Ipsum был стандартным текстом-пустышкой в отрасли с 1500-х годов, когда неизвестный типограф взял гранку шрифтов и переделал ее, чтобы сделать книгу образцов шрифтов. Он пережил не только пять столетий, но и скачок в электронную верстку, оставшись по существу неизменным. Он был популяризирован в 1960-х годах с выпуском листов Letraset, содержащих отрывки из Lorem Ipsum, а в последнее время с появлением программного обеспечения для настольных издательских систем, такого как Aldus PageMaker, включая версии Lorem Ipsum. Lorem Ipsum — это просто фиктивный текст, используемый в полиграфической и наборной индустрии. Lorem Ipsum был стандартным текстом-пустышкой в отрасли с 1500-х годов, когда неизвестный типограф взял гранку шрифтов и переделал ее, чтобы сделать книгу образцов шрифтов. Он пережил не только пять столетий, но и скачок в электронную верстку, оставшись по существу неизменным. Он был популяризирован в 1960-х годах с выпуском листов Letraset, содержащих отрывки из Lorem Ipsum, а в последнее время с появлением программного обеспечения для настольных издательских систем, такого как Aldus PageMaker, включая версии Лорем Ипсум."
+    },
+    "termsFaq": {
+        "frequently asked questions": "Часто задаваемые вопросы",
+        "lorem Ipsum is simply dummy text of the printing and type?": "Лорем Ипсум — это просто текст-пустышка печати и шрифта?",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer": "Лорем Ипсум — это просто текст-пустышка полиграфической и наборной индустрии. Лорем Ипсум был стандартным текстом-пустышкой в отрасли с 1500-х годов, когда неизвестный печатник"
+    },
+    "blogNews": {
+        "innovations": "Инновации",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged": "Лорем Ипсум — это просто макет печатного и версточного текста.промышленность Lorem Ipsum стал стандартным фиктивным текстом в отрасли.  еще с 1500-х годов, когда неизвестный печатник взял галеру типа     и переделал его, чтобы сделать типовую книгу. Оно сохранилось не только пять столетий, но и скачок в электронную верстку, оставшуюся существенно не изменился"
+    },
+    "blogNewsCard": {
+        "the name of the news": "Название новости"
+    },
+    "contactUs": {
+        "write to us !": "Напишите нам !",
+        "message": "Сообщение"
     }
 }

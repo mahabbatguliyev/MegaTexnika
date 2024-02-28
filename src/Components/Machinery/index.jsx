@@ -2,14 +2,16 @@ import React from 'react'
 import './style.css';
 import { products } from '../ProductData.jsx';
 import { Link } from 'react-router-dom';
-const product = products.slice(0, 4);
+import { useTranslation } from 'react-i18next';
 const Machinery = () => {
+    const product = products.slice(0, 4);
+const {t}=useTranslation('machinery');
     return (
         <section id='machinery'>
             <div className="container">
                 <div className="row">
                     <div className="machinery-header">
-                        <h3>Texnikalar</h3>
+                        <h3>{t('techniques')}</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -18,14 +20,14 @@ const Machinery = () => {
                             <div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex">
                                 <div className="machinery-content">
                                     <img src={item.image} alt="img" />
-                                    <h6 className='product-name'>Məhsulun adı</h6>
+                                    <h6 className='product-name'>{t('product name')}</h6>
                                     <p>{item.productName}</p>
                                     <span className='year'>{item.year}</span>
                                     <div className="price">
-                                        <p>{item.monthlyPrice} AZN /ay</p>
-                                        <p>{item.dailyPrice} AZN /gün</p>
+                                        <p>{item.monthlyPrice} {t('azn /month')}</p>
+                                        <p>{item.dailyPrice} {t('azn /day')}</p>
                                     </div>
-                                    <button>İcarə et</button>
+                                    <button>{t('rent it')}</button>
                                 </div>
                             </div>
                         )
@@ -33,7 +35,7 @@ const Machinery = () => {
                     </div>
                 </div>
                 <div className="row text-center">
-                    <Link to={"/texnikalar"}><button className='machinery-btn'>Hamısına bax</button> </Link>
+                    <Link to={"/texnikalar"}><button className='machinery-btn'>{t('see all')}</button> </Link>
                 </div>
             </div>
         </section>
