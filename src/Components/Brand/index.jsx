@@ -14,7 +14,7 @@ const Brand = () => {
             if (sliderRef.current) {
                 sliderRef.current.slickNext();
             }
-        }, 1500);
+        }, 1300);
 
         return () => clearInterval(interval);
     }, []);

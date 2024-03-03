@@ -40,9 +40,9 @@
     },
     "news": {
         "news": "Yeniliklər",
-        "lorem Ipsum is simply dummy":"Lorem Ipsum is simply dummy",
-        "lorem Ipsum has been the industry's standard dummy text ever since":"Lorem Ipsum has been the industry's standard dummy text ever since",
-        "lorem Ipsum is simply dummy text of the printing and typesetting industry...":"Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+        "lorem Ipsum is simply dummy": "Lorem Ipsum is simply dummy",
+        "lorem Ipsum has been the industry's standard dummy text ever since": "Lorem Ipsum has been the industry's standard dummy text ever since",
+        "lorem Ipsum is simply dummy text of the printing and typesetting industry...": "Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
     },
     "contact": {
         "contact us !": "Bizimlə əlaqə saxla!",
@@ -51,7 +51,16 @@
         "e-mail": "E-mail",
         "phone": "Telefon",
         "send": "Göndər",
-        "thank you for your message!":"Mesajınız üçün təşəkkür edirik!"
+        "please enter your full name": "Zəhmət olmasa tam adınızı daxil edin",
+        "please enter your fullName":"Zəhmət olmasa tam adınızı daxil edin",
+        "please enter your email": "Zəhmət olmasa e-poçtunuzu daxil edin",
+        "please enter your company name": "Zəhmət olmasa şirkət adınızı daxil edin",
+        "please enter your companyName":"Zəhmət olmasa şirkət adınızı daxil edin",
+        "please enter your phone number": "Zəhmət olmasa telefon nömrənizi daxil edin",
+        "please enter your phone":"Zəhmət olmasa telefon nömrənizi daxil edin",
+        "please enter your message": "Zəhmət olmasa mesajınızı daxil edin",
+        "thank you for your message!": "Mesajınız üçün təşəkkür edirik!",
+        "thank you for contacting us. We will contact you as soon as possible.":"Bizimlə əlaqə saxladığınız üçün təşəkkür edirik. Ən qısa zamanda sizinlə əlaqə saxlayacağıq."
     },
     "whyUs": {
         "why should you choose us": "Niyə bizi seçməlisiniz"
@@ -80,8 +89,8 @@
     "blogNewsCard": {
         "the name of the news": "Xəbərin adı"
     },
-    "contactUs":{
-        "write to us !":"Bizə yazın !",
-        "message":"Mesaj"
-      }
+    "contactUs": {
+        "write to us !": "Bizə yazın !",
+        "message": "Mesaj"
+    }
 }

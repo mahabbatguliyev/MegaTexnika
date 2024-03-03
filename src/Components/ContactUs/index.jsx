@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
 const ContactUs = () => {
+  
     const { t } = useTranslation('contactUs');
     const { t: t2 } = useTranslation('navbar');
     const { t: t3 } = useTranslation('contact');
@@ -30,9 +30,6 @@ const ContactUs = () => {
         if (validateForm()) {
             setIsFormSubmitted(true);
             setShowThankYouMessage(true);
-            // Formun gönderim işlemleri burada gerçekleştirilebilir
-
-            // Form gönderildikten sonra form alanlarını temizle
             setFormData({
                 fullName: '',
                 email: '',
@@ -40,71 +37,55 @@ const ContactUs = () => {
                 phone: '',
                 message: ''
             });
-
-            // Form hatalarını sıfırla
             setFormErrors({});
-
-            // Teşekkür mesajını birkaç saniye sonra kapat
             setTimeout(() => {
                 setShowThankYouMessage(false);
-            }, 5000); 
+            }, 5000);
         }
-        
+
     };
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        
-        // Form verisini güncelle
         setFormData({ ...formData, [name]: value });
-    
-        // İlgili hatayı kaldır veya göster
-        if (value.trim() !== '') {
+
+        if (value !== '') {
             setFormErrors({ ...formErrors, [name]: '' });
         } else if (!formErrors[name]) {
-            setFormErrors({ ...formErrors, [name]: t3(`Please enter your ${name}`) });
+            setFormErrors({ ...formErrors, [name]: t3(`please enter your ${name}`) });
         }
     };
-    
-    
-    
-
     const validateForm = () => {
         let errors = {};
         let isValid = true;
-
-        if (!formData.fullName.trim()) {
-            errors.fullName = t3('Please enter your full name');
+        if (!formData.fullName) {
+            errors.fullName = t3('please enter your full name');
             isValid = false;
         }
 
-        if (!formData.email.trim()) {
-            errors.email = t3('Please enter your email');
+        if (!formData.email) {
+            errors.email = t3('please enter your email');
             isValid = false;
         } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-            errors.email = t3('Please enter your email');
+            errors.email = t3('please enter your email');
             isValid = false;
         }
-
-        if (!formData.companyName.trim()) {
-            errors.companyName = t3('Please enter your company name');
+        if (!formData.companyName) {
+            errors.companyName = t3('please enter your company name');
             isValid = false;
         }
-
-        if (!formData.phone.trim()) {
-            errors.phone = t3('Please enter your phone number');
+        if (!formData.phone) {
+            errors.phone = t3('please enter your phone number');
             isValid = false;
         }
-
-        if (!formData.message.trim()) {
-            errors.message = t('Please enter your message');
+        if (!formData.message) {
+            errors.message = t3('please enter your message');
             isValid = false;
         }
 
         setFormErrors(errors);
         return isValid;
     };
-
     return (
         <div className="container">
             <div className="contact-us-nav">
@@ -119,6 +100,7 @@ const ContactUs = () => {
                     <h3>{t('write to us !')}</h3>
                     <div className="contact-form">
                         <form onSubmit={handleSubmit}>
+                            {formErrors.fullName && <p className="error-message error-name">{formErrors.fullName}</p>}
                             <div className="form-top d-flex">
                                 <input
                                     type="text"
@@ -127,8 +109,6 @@ const ContactUs = () => {
                                     value={formData.fullName}
                                     onChange={handleChange}
                                 />
-                               
-                                {formErrors.fullName && <p className="error-message">{formErrors.fullName}</p>}
                                 <input
                                     type="email"
                                     name="email"
@@ -136,9 +116,9 @@ const ContactUs = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
-                                {formErrors.email && <p className="error-message">{formErrors.email}</p>}
+                                {formErrors.email && <p className="error-message error-email">{formErrors.email}</p>}
                             </div>
-
+                            {formErrors.companyName && <p className="error-message error-company">{formErrors.companyName}</p>}
                             <div className="form-bottom d-flex">
                                 <input
                                     type="text"
@@ -147,15 +127,15 @@ const ContactUs = () => {
                                     value={formData.companyName}
                                     onChange={handleChange}
                                 />
-                                {formErrors.companyName && <p className="error-message">{formErrors.companyName}</p>}
                                 <input
                                     type="text"
                                     name="phone"
                                     placeholder={t3('Phone')}
                                     value={formData.phone}
                                     onChange={handleChange}
+                                    pattern="[0-9]{10}"
                                 />
-                                {formErrors.phone && <p className="error-message">{formErrors.phone}</p>}
+                                {formErrors.phone && <p className="error-message error-phone">{formErrors.phone}</p>}
                             </div>
                             <textarea
                                 className='message'
@@ -164,7 +144,7 @@ const ContactUs = () => {
                                 value={formData.message}
                                 onChange={handleChange}
                             ></textarea>
-                            {formErrors.message && <p className="error-message">{formErrors.message}</p>}
+                            {formErrors.message && <p className="error-message error-msg">{formErrors.message}</p>}
                             {showThankYouMessage && (
                                 <p style={{ color: 'green' }}>{t3('thank you for your message!')}</p>
                             )}

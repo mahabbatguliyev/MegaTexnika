@@ -41,7 +41,7 @@ input {
 .form-top,
 .form-bottom {
     gap: 20px;
-    margin-bottom: 13px;
+    margin-bottom: 29px;
 }
 
 .contact-text button {
@@ -66,4 +66,33 @@ input {
 .contact-img {
     position: absolute;
     bottom: 152px;
+}
+form{
+    position: relative;
+    margin-top: 30px;
+}
+.error-message-cs{
+    color: red !important;
+    font-size: 12px;
+}
+.error-name-cs{
+    position:absolute;
+    top: -30px;
+}
+.error-company-cs{
+    position: absolute;
+    left: 254px;
+    top: -30px;
+    white-space: nowrap;
+
+}
+.error-phone-cs{
+    position: absolute;
+    right: 23px;
+    top: 45px;
+    white-space: nowrap;
+}
+.error-email-cs{
+ position: absolute;
+ top: 43px;
 }

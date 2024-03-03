@@ -52,7 +52,16 @@
     "e-mail": "E-mail",
     "phone": "Phone",
     "send": "Send",
-    "thank you for your message!":"Thank you for your message!"
+    "please enter your full name":"Please enter your full name",
+    "please enter your fullName":"Please enter your full name",
+    "please enter your email":"Please enter your email",
+    "please enter your company name":"Please enter your company name",
+    "please enter your companyName":"Please enter your company name",
+    "please enter your phone number":"Please enter your phone number",
+    "please enter your phone":"Please enter your phone number",
+    "please enter your message":"Please enter your message",
+    "thank you for your message!":"Thank you for your message!",
+    "thank you for contacting us. We will contact you as soon as possible.":"Thank you for contacting us. We will contact you as soon as possible."
   },
   "whyUs": {
     "why should you choose us": "Why should you choose us",
