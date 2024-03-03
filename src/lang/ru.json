@@ -51,7 +51,8 @@
         "company name": "Название компании",
         "e-mail": "Электронная почта",
         "phone": "Телефон",
-        "send": "Отправлять"
+        "send": "Отправлять",
+        "thank you for your message!":"Спасибо за ваше сообщение!"
     },
     "whyUs": {
         "why should you choose us": "Почему вам следует выбрать нас",

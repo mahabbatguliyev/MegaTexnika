@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const BlogNews = () => {
-    const {t}=useTranslation('blogNews')
-    const {t:t2}=useTranslation('navbar')
+    const {t}=useTranslation('blogNews');
+    const {t:t2}=useTranslation('navbar');
+    useEffect(() => {
+        Aos.init({duration:3000});
+    },[]);
+    
     return (
         <div className="container">
             <div className="blog-news-navbar">
@@ -14,7 +20,7 @@ const BlogNews = () => {
                     <li className='blog'>{t2('blog')}</li>
                 </ul>
             </div>
-            <div className="blog-news-content d-flex justify-content-between">
+            <div className="blog-news-content d-flex justify-content-between" data-aos="fade-up">
                 <div className="blog-news-left">
                     <h3>{t('innovations')}</h3>
                     <p>{t("lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged")}</p>

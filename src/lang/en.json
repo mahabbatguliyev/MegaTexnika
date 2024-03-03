@@ -51,7 +51,8 @@
     "company name": "Company name",
     "e-mail": "E-mail",
     "phone": "Phone",
-    "send": "Send"
+    "send": "Send",
+    "thank you for your message!":"Thank you for your message!"
   },
   "whyUs": {
     "why should you choose us": "Why should you choose us",

@@ -19,7 +19,9 @@
     border: 1px solid #FFC01F;
 }
 
-
+.technique-card{
+    gap: 12px;
+}
 .technique-card-content {
     margin-top: 60px;
     box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
@@ -33,9 +35,7 @@
     color: #596C72;
     font-family: Montserrat,sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .technique-card-content p {
@@ -47,12 +47,15 @@
     color: #B0ADAD;
     font-family: Mulish,sans-serif;
 }
-
+/* .price{
+    width: 163px;
+} */
 .price p {
     color: #FFC01F;
     font-family: Montserrat,sans-serif;
     font-size: 18px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .technique-card-content button {

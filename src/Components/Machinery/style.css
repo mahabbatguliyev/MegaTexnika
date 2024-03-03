@@ -29,13 +29,14 @@
 .machinery-content .year {
     color: #B0ADAD;
 }
-
+.machinery-card{
+    gap: 18px;
+}
 .price p {
-    color: #FFC01F;
+    color: red;
     font-family: Montserrat,sans-serif;
     font-size: 18px;
     font-weight: 600;
-    
 }
 
 .price {

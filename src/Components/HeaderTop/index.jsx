@@ -1,7 +1,9 @@
 import React from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 const HeaderTop = () => {
+    const { t } = useTranslation('footer')
     return (
         <div className='header-top'>
             <div className="container d-flex justify-content-between">
@@ -9,7 +11,7 @@ const HeaderTop = () => {
                     <div className="address">
                         <span>+994(12) 123 45 67</span>
                         <span className='vertical-bar'>|</span>
-                        <span>Fətəli Xan Xoyski 111A, Bakı Azərbaycan</span>
+                        <span>{t('fatali Khan Khoyski 111A, Baku Azerbaijan')}</span>
                     </div>
                 </div>
                 <div className="ht-right">

@@ -50,7 +50,8 @@
         "company name": "Şirkətin adı",
         "e-mail": "E-mail",
         "phone": "Telefon",
-        "send": "Göndər"
+        "send": "Göndər",
+        "thank you for your message!":"Mesajınız üçün təşəkkür edirik!"
     },
     "whyUs": {
         "why should you choose us": "Niyə bizi seçməlisiniz"

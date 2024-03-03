@@ -14,11 +14,10 @@ const Brand = () => {
             if (sliderRef.current) {
                 sliderRef.current.slickNext();
             }
-        }, 1000);
+        }, 1500);
 
         return () => clearInterval(interval);
     }, []);
-
     const settings = {
         dots: false,
         infinite: true,

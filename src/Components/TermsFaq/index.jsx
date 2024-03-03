@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import './style.css'
 import { useTranslation } from 'react-i18next';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const TermsFaq = () => {
-    const { t } = useTranslation('termsFaq')
+    const { t } = useTranslation('termsFaq');
+    useEffect(() => {
+        Aos.init({duration:2000});
+    },[]);
     return (
         <div className="container">
-            <div className="terms-faq">
+            <div className="terms-faq" data-aos="fade-up">
                 <div className="terms-faq-header text-center">
                     <h3>{t('frequently asked questions')}</h3>
                 </div>

@@ -1,25 +1,29 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './style.css'
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const TestedMachinery = () => {
     const loacation = useLocation();
     const isMachineryPage = loacation.pathname === '/'
     const { t } = useTranslation('testedMachinery');
     const { t: t2 } = useTranslation('hero');
-
+    useEffect(() => {
+        Aos.init({duration:3000});
+    },[]);
     return (
         <section id='tested-machinery'>
             <div className="container">
                 <div className="machinery-wrapper d-flex">
-                    <div className="tm-left">
+                    <div className="tm-left" data-aos="fade-right" data-aos-delay="600">
                         <img src="./src/assets/img/image 7.svg" alt="Tested machinery img" />
                     </div>
                     <div className="tm-right-content">
                         <div className="tm-right text-center">
-                            <img src="./src/assets/img/image 6.svg" alt="Tested machinery img" />
-                            <div className="tm-content text-center">
+                            <img src="./src/assets/img/image 6.svg" alt="Tested machinery img" className=''data-aos="fade-left" data-aos-delay="700" />
+                            <div className="tm-content text-center" data-aos="fade-up" data-aos-delay="400">
                                 <h3>{t('mega Technika-tried and tested techniques')}</h3>
                                 {isMachineryPage ?
                                     <>

@@ -4,11 +4,12 @@ import { useTranslation } from "react-i18next";
 import i18n from "i18next";
 import './style.css';
 
+
 const Navbar = () => {
     const location = useLocation();
     const isHomePage = location.pathname === '/';
     const { t } = useTranslation('navbar');
-    
+
     const [isVisible, setIsVisible] = useState(false);
 
     const scrollTop = () => {
@@ -34,7 +35,6 @@ const Navbar = () => {
         const barIcon = document.querySelector('.bar-icon');
         barIcon.classList.toggle('bar-icon-hover');
         const body = document.querySelector('body');
-        body.classList.toggle('sidebar-open');
     };
 
     const langElement = (value, label) => {
@@ -54,6 +54,7 @@ const Navbar = () => {
     const toggleLangImageVisibility = () => {
         setLangImageVisibility(!langImageVisible);
     };
+
 
     return (
         <div className="header-bottom">
@@ -87,31 +88,38 @@ const Navbar = () => {
                             <Link className='link' to={"/icarə şərtləri"}><li>{t('terms of lease')}</li></Link>
                             <Link className='link' to={'/blog'}><li>{t('blog')}</li></Link>
                             <Link className='link' to={"/əlaqə"}><li>{t('contact')}</li></Link>
-                        </ul>
-                    </nav>
-                    <li className='bar-icon' onClick={toggleLeftSideBar}><img src="./src/assets/img/bar.svg" alt="bar icon" /></li>
-                </div>
 
-                {isHomePage ? <ul className='lang'>
-                    {langs.map(item => (
-                        <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
-                    ))}
 
-                </ul> :
-                    <div>
-
-                        {isVisible && (<img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
-                            onMouseEnter={toggleLangImageVisibility}
-                        />) ||
-                            <ul className='lang'>
+                            {isHomePage ? <ul className='lang'>
                                 {langs.map(item => (
                                     <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
                                 ))}
-                            </ul>}
 
-                    </div>
+                            </ul> :
+                                <div>
 
-                }
+                                    {isVisible && (<img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
+                                        onMouseEnter={toggleLangImageVisibility}
+                                    />) ||
+                                        <ul className='lang'>
+                                            {langs.map(item => (
+                                                <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
+                                            ))}
+                                        </ul>}
+
+                                </div>
+
+                            }
+                        </ul>
+
+                    </nav>
+
+                    <li className='bar-icon' onClick={toggleLeftSideBar}><img src="./src/assets/img/bar.svg" alt="bar icon" /></li>
+
+
+                </div>
+
+
                 {isVisible && <div className="up" onClick={scrollTop}>
                     <img src="./src/assets/img/up.svg" alt="Up" />
                 </div>}

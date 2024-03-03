@@ -99,3 +99,11 @@
 .contact-us-right p:nth-child(5) {
     margin-top: 46px;
 }
+
+
+/* style.css */
+.error-message {
+    color: red;
+    font-size: 12px;
+
+}

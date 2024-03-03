@@ -484,6 +484,7 @@
 @media (max-width:640px) {
 
     /* Sidebar  */
+
     .sidebar {
         position: absolute;
         width: 100%;
@@ -492,22 +493,20 @@
         top: 0;
         bottom: 0;
         z-index: 1;
+        height: 2800px;
     }
-   
-    .sidebar-open {
-        overflow: hidden;
-    }
+
 
     .active {
         left: 0;
-        top: 150px;
+        top: 130px;
         background-color: #fff;
     }
 
     .bar-icon {
         position: absolute;
-        right: -200px;
-        top: 105px;
+        right: -210px;
+        top: 95px;
     }
 
     .bar-icon:hover {
@@ -515,8 +514,8 @@
     }
 
     .bar-icon-hover {
-        right: 0;
-        top: -45px;
+        right: -10px;
+        top: -35px;
     }
 
     .menu {
@@ -540,7 +539,15 @@
     }
 
     .header-bottom .lang {
-        display: none;
+        display: block;
+        position: absolute;
+        top: 275px;
+        left: 10px;
+    }
+
+    .header-bottom .lang li {
+        font-size: 15px;
+        padding-bottom: 7px;
     }
 
     .header-bottom .lang-img {

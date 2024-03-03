@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './style.css'
 import { useTranslation } from 'react-i18next'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const WhyUs = () => {
-  const {t}=useTranslation('whyUs')
-  const {t:t1}=useTranslation('hero')
+  const {t}=useTranslation('whyUs');
+  const {t:t1}=useTranslation('hero');
+  useEffect(() => {
+    Aos.init({duration:3000});
+},[]);
   return (
     <section id='whyUs'>
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="row">
           <div className="col-lg-5 col-md-3">
             <div className="why-us-content">

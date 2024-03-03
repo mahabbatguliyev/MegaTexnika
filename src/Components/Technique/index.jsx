@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { products } from '../ProductData.jsx/index.jsx'
 import './style.css'
 import { useTranslation } from 'react-i18next';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Technique = () => {
-    const {t:t2}=useTranslation('machinery');
-    const [items, setItems] = useState(products)
-
+    const { t: t2 } = useTranslation('machinery');
+    const [items, setItems] = useState(products);
     const filterData = (title) => {
         if (title !== "Hamısı") {
             setItems(products.filter(product => product.title === title));
@@ -24,6 +25,10 @@ const Technique = () => {
         { title: "Katok" },
         { title: "Shacman" },
     ]
+    useEffect(() => {
+        Aos.init({duration:3000});
+        Aos.refreshHard();
+    },[]);
     return (
         <div className="container">
             <div className="technique-button text-center">
@@ -34,8 +39,8 @@ const Technique = () => {
             <div className="row">
                 <div className="technique-card d-flex flex-wrap">
                     {items.map((item, i) => (
-                        <div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex">
-                            <div className="technique-card-content">
+                        <div key={i} className="technique-card-content" data-aos="fade-up">
+                            <div className="col-sm-12 col-md-6 col-3">
                                 <img src={item.image} alt="img" />
                                 <h6 className='product-name'>{t2('product name')}</h6>
                                 <p>{item.productName}</p>
