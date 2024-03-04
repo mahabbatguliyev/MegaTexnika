@@ -4,31 +4,34 @@ import './style.css'
 import { useTranslation } from 'react-i18next';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 const Technique = () => {
+    const { t } = useTranslation('techniques')
     const { t: t2 } = useTranslation('machinery');
+    const { t: t3 } = useTranslation('category');
     const [items, setItems] = useState(products);
     const filterData = (title) => {
-        if (title !== "Hamısı") {
+        if (title !== t("Hamısı")) {
             setItems(products.filter(product => product.title === title));
         } else {
             setItems(products);
         }
     };
     const lists = [
-        { title: "Hamısı" },
-        { title: "Ekskavatorlar" },
-        { title: "Ekskavator yükləyicilər" },
-        { title: "Forkliftlər" },
-        { title: "Avtokranlar" },
-        { title: "Qaldırıcı səbətlər" },
+        { title: t("All") },
+        { title: t("Excavators") },
+        { title: t("Ekskavator yükləyicilər") },
+        { title: t("Forklifts") },
+        { title: t("Avtokranlar") },
+        { title: t("Lifting baskets") },
         { title: "Bobcat" },
         { title: "Katok" },
         { title: "Shacman" },
     ]
     useEffect(() => {
-        Aos.init({duration:3000});
-        Aos.refreshHard();
-    },[]);
+        Aos.init({ duration: 3000 });
+        // Aos.refreshHard();
+    }, []);
     return (
         <div className="container">
             <div className="technique-button text-center">
@@ -43,13 +46,13 @@ const Technique = () => {
                             <div className="col-sm-12 col-md-6 col-3">
                                 <img src={item.image} alt="img" />
                                 <h6 className='product-name'>{t2('product name')}</h6>
-                                <p>{item.productName}</p>
+                                <p>{t3(item.productName)}</p>
                                 <span className='year'>{item.year}</span>
                                 <div className="price">
                                     <p>{item.monthlyPrice} {t2('azn /month')}</p>
                                     <p>{item.dailyPrice} {t2('azn /day')}</p>
                                 </div>
-                                <button>{t2('rent it')}</button>
+                                <Link to={"/detail"}><button>{t2('rent it')}</button></Link>
                             </div>
                         </div>
                     ))}

@@ -21,7 +21,17 @@
         "detailed": "Более"
     },
     "category": {
-        "categories": "Категории"
+        "categories": "Категории",
+        "Ekskavator": "Экскаватор",
+        "Ekskavator yükləyici": "Экскаватор-погрузчик",
+        "Avtokran": "Автокран",
+        "Forkliftlər": "Вилочные погрузчики",
+        "Traktor": "Трактор",
+        "Qaldırıcı səbət": "Подъемная корзина",
+        "Katok": "Каток",
+        "Shacman": "Шакман",
+        "Pompa": "Насос",
+        "Bobcat": "Бобкэт"
     },
     "testedMachinery": {
         "mega Technika-tried and tested techniques": "Мега Техника–проверенные методы",
@@ -49,19 +59,19 @@
         "contact us !": "Связаться с нами!",
         "first name and last name": "Имя и фамилия",
         "company name": "Название компании",
-        "e-mail": "Электронная почта",
+        "email": "Электронная почта",
         "phone": "Телефон",
         "send": "Отправлять",
-        "please enter your full name":"Пожалуйста, введите ваше полное имя",
-        "please enter your fullName":"Пожалуйста, введите ваше полное имя",
-        "please enter your email":"Пожалуйста, введите свой адрес электронной почты",
-        "please enter your company name":"Пожалуйста, введите название вашей компании",
-        "please enter your companyName":"Пожалуйста, введите название вашей компании",
-        "please enter your phone number":"Пожалуйста, введите свой номер телефона",
-        "please enter your phone":"Пожалуйста, введите свой номер телефона",
-        "please enter your message ":"Пожалуйста, введите ваше сообщение",
-        "thank you for your message!":"Спасибо за ваше сообщение!",
-        "thank you for contacting us. We will contact you as soon as possible.":"Благодарим Вас за обращение к нам. Мы свяжемся с вами как можно скорее."
+        "please enter your full name": "Пожалуйста, введите ваше полное имя",
+        "please enter your fullName": "Пожалуйста, введите ваше полное имя",
+        "please enter your email": "Пожалуйста, введите свой адрес электронной почты",
+        "please enter your company name": "Пожалуйста, введите название вашей компании",
+        "please enter your companyName": "Пожалуйста, введите название вашей компании",
+        "please enter your phone number": "Пожалуйста, введите свой номер телефона",
+        "please enter your phone": "Пожалуйста, введите свой номер телефона",
+        "please enter your message ": "Пожалуйста, введите ваше сообщение",
+        "thank you for your message!": "Спасибо за ваше сообщение!",
+        "thank you for contacting us. We will contact you as soon as possible.": "Благодарим Вас за обращение к нам. Мы свяжемся с вами как можно скорее."
     },
     "whyUs": {
         "why should you choose us": "Почему вам следует выбрать нас",

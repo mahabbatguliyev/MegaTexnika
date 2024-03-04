@@ -48,7 +48,7 @@
         "contact us !": "Bizimlə əlaqə saxla!",
         "first name and last name": "Ad,Soyad",
         "company name": "Şirkətin adı",
-        "e-mail": "E-mail",
+        "email": "E-mail",
         "phone": "Telefon",
         "send": "Göndər",
         "please enter your full name": "Zəhmət olmasa tam adınızı daxil edin",
@@ -92,5 +92,13 @@
     "contactUs": {
         "write to us !": "Bizə yazın !",
         "message": "Mesaj"
+    },
+    "techniques":{
+"All":"Hamısı",
+"Excavators":"Ekskavatorlar",
+"Forklifts":"Forkliftlər",
+"Lifting baskets":"Qaldırıcı səbətlər"
+
     }
+  
 }

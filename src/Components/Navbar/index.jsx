@@ -9,9 +9,7 @@ const Navbar = () => {
     const location = useLocation();
     const isHomePage = location.pathname === '/';
     const { t } = useTranslation('navbar');
-
     const [isVisible, setIsVisible] = useState(false);
-
     const scrollTop = () => {
         window.scrollTo(0, 0);
     };
@@ -51,11 +49,6 @@ const Navbar = () => {
         await i18n.changeLanguage(key);
     };
 
-    const toggleLangImageVisibility = () => {
-        setLangImageVisibility(!langImageVisible);
-    };
-
-
     return (
         <div className="header-bottom">
             <div className="container d-flex justify-content-between">
@@ -88,38 +81,23 @@ const Navbar = () => {
                             <Link className='link' to={"/icarə şərtləri"}><li>{t('terms of lease')}</li></Link>
                             <Link className='link' to={'/blog'}><li>{t('blog')}</li></Link>
                             <Link className='link' to={"/əlaqə"}><li>{t('contact')}</li></Link>
-
-
                             {isHomePage ? <ul className='lang'>
                                 {langs.map(item => (
                                     <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
                                 ))}
-
                             </ul> :
                                 <div>
-
-                                    {isVisible && (<img className='lang-img' src='./src/assets/img/Group 29.svg' alt='Language img'
-                                        onMouseEnter={toggleLangImageVisibility}
-                                    />) ||
                                         <ul className='lang'>
                                             {langs.map(item => (
                                                 <li key={item.value} onClick={() => changeLang(item.value)}>{item.label}</li>
                                             ))}
-                                        </ul>}
-
+                                        </ul>
                                 </div>
-
                             }
                         </ul>
-
                     </nav>
-
                     <li className='bar-icon' onClick={toggleLeftSideBar}><img src="./src/assets/img/bar.svg" alt="bar icon" /></li>
-
-
                 </div>
-
-
                 {isVisible && <div className="up" onClick={scrollTop}>
                     <img src="./src/assets/img/up.svg" alt="Up" />
                 </div>}

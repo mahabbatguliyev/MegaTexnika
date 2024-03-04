@@ -111,7 +111,7 @@ const ContactSection = () => {
                                 <div className="form-bottom d-flex">
                                     <input type="text"
                                         name="email"
-                                        placeholder={t('e-mail')}
+                                        placeholder={t('email')}
                                         value={formData.email}
                                         onChange={handleChange}
                                     />

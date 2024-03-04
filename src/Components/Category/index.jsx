@@ -25,7 +25,7 @@ const Category = () => {
                     {product.map((item, i) =>
                         <div key={i} className="category-card-content" data-aos="fade-up">
                             <div className="col-12 col-6 col-3 mb-4">
-                                <h3 className='text-center'>{item.productName}</h3>
+                                <h3 className='text-center'>{t(item.productName)}</h3>
                                 <img src={item.image} alt={item.productName} />
                             </div>
                         </div>

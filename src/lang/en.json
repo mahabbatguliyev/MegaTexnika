@@ -21,7 +21,13 @@
     "detailed": "Detailed"
   },
   "category": {
-    "categories": "Categories"
+    "categories": "Categories",
+    "Ekskavator": "Excavator",
+    "Ekskavator yükləyici": "Excavator loader",
+    "Avtokran": "Auto crane",
+    "Forkliftlər": "Forklifts",
+    "Traktor": "Tractor",
+    "Qaldırıcı səbət":"Lifting basket"
   },
   "testedMachinery": {
     "mega Technika-tried and tested techniques": "Mega Technika-tried and tested techniques",
@@ -49,19 +55,19 @@
     "contact us !": "Contact us!",
     "first name and last name": "First name and last name",
     "company name": "Company name",
-    "e-mail": "E-mail",
+    "email": "E-mail",
     "phone": "Phone",
     "send": "Send",
-    "please enter your full name":"Please enter your full name",
-    "please enter your fullName":"Please enter your full name",
-    "please enter your email":"Please enter your email",
-    "please enter your company name":"Please enter your company name",
-    "please enter your companyName":"Please enter your company name",
-    "please enter your phone number":"Please enter your phone number",
-    "please enter your phone":"Please enter your phone number",
-    "please enter your message":"Please enter your message",
-    "thank you for your message!":"Thank you for your message!",
-    "thank you for contacting us. We will contact you as soon as possible.":"Thank you for contacting us. We will contact you as soon as possible."
+    "please enter your full name": "Please enter your full name",
+    "please enter your fullName": "Please enter your full name",
+    "please enter your email": "Please enter your email",
+    "please enter your company name": "Please enter your company name",
+    "please enter your companyName": "Please enter your company name",
+    "please enter your phone number": "Please enter your phone number",
+    "please enter your phone": "Please enter your phone number",
+    "please enter your message": "Please enter your message",
+    "thank you for your message!": "Thank you for your message!",
+    "thank you for contacting us. We will contact you as soon as possible.": "Thank you for contacting us. We will contact you as soon as possible."
   },
   "whyUs": {
     "why should you choose us": "Why should you choose us",
@@ -76,8 +82,13 @@
   "aboutUs": {
     "about us": "About us"
   },
-  "techniques":{
-    "d":"s"
+  "techniques": {
+    "Hamısı": "All",
+    "Ekskavatorlar":"Excavators",
+    "Ekskavator yükləyicilər":"Excavator loaders",
+    "Avtokranlar":"Auto cranes",
+    "Lifting baskets":"Lifting baskets",
+    "Forkliftlər":"Forklifts"
   },
   "terms": {
     "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"

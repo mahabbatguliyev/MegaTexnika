@@ -6,6 +6,7 @@ import Terms from "./Pages/Terms"
 import Blog from "./Pages/Blog"
 import NotFound from "./Pages/NotFound"
 import Contact from "./Pages/Contact"
+import Detail from "./Pages/Detail"
 import './assets/css/reset.css'
 import './assets/css/responsive.css'
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/icarə şərtləri" element={<Terms />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/əlaqə" element={<Contact />} />
+        <Route path="/detail" element={<Detail />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

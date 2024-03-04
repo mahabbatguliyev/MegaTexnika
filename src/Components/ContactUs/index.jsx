@@ -112,7 +112,7 @@ const ContactUs = () => {
                                 <input
                                     type="email"
                                     name="email"
-                                    placeholder={t3('Email')}
+                                    placeholder={t3('email')}
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
@@ -123,14 +123,14 @@ const ContactUs = () => {
                                 <input
                                     type="text"
                                     name="companyName"
-                                    placeholder={t3('Company Name')}
+                                    placeholder={t3('company name')}
                                     value={formData.companyName}
                                     onChange={handleChange}
                                 />
                                 <input
                                     type="text"
                                     name="phone"
-                                    placeholder={t3('Phone')}
+                                    placeholder={t3('phone')}
                                     value={formData.phone}
                                     onChange={handleChange}
                                     pattern="[0-9]{10}"
@@ -140,7 +140,7 @@ const ContactUs = () => {
                             <textarea
                                 className='message'
                                 name="message"
-                                placeholder={t('Message')}
+                                placeholder={t('message')}
                                 value={formData.message}
                                 onChange={handleChange}
                             ></textarea>
