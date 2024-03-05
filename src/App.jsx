@@ -19,7 +19,7 @@ function App() {
         <Route path="/icarə şərtləri" element={<Terms />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/əlaqə" element={<Contact />} />
-        <Route path="/detail" element={<Detail />} />
+        <Route path="/texnikalar/:id" element={<Detail />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

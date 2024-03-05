@@ -37,7 +37,7 @@ const Machinery = () => {
                                         <p>{item.monthlyPrice} {t('azn /month')}</p>
                                         <p>{item.dailyPrice} {t('azn /day')}</p>
                                     </div>
-                                    <Link to={"/detail"}><button>{t('rent it')}</button> </Link>
+                                    <Link to={`/texnikalar/${item.id}`}><button>{t('rent it')}</button> </Link>
                                 </div>
                             </div>
                         ))}
