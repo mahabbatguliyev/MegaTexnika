@@ -51,7 +51,7 @@ const Technique = () => {
                                     <p>{item.monthlyPrice} {t2('azn /month')}</p>
                                     <p>{item.dailyPrice} {t2('azn /day')}</p>
                                 </div>
-                                <Link to={`/texnikalar/${item.id}`}><button>{t2('rent it')}</button></Link>
+                               <button>{t2('rent it')}</button>
                             </div>
                         </div>
                     ))}
