@@ -16,9 +16,9 @@
         "contact": "Əlaqə"
     },
     "hero": {
-        "buy your heavy equipment from us": "Ağır texnikalarınızı bizdən satın alın",
+        "buy_your_heavy_equipment_from_us": "Ağır texnikalarınızı bizdən satın alın",
         "detailed": "Ətraflı",
-        "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"
+        "lorem_Ipsumis_simply_dummy_text_of_the_printing_and_typesetting_industry._Lorem_Ipsum_has_been_the_industry's_standard_dummy_text_ever_since_the_1500s,_when_an_unknown_printer_took_a_galley_of_type_and_scrambled": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled"
     },
     "category": {
         "categories": "Kateqoriyalar"
@@ -52,15 +52,15 @@
         "phone": "Telefon",
         "send": "Göndər",
         "please enter your full name": "Zəhmət olmasa tam adınızı daxil edin",
-        "please enter your fullName":"Zəhmət olmasa tam adınızı daxil edin",
+        "please enter your fullName": "Zəhmət olmasa tam adınızı daxil edin",
         "please enter your email": "Zəhmət olmasa e-poçtunuzu daxil edin",
         "please enter your company name": "Zəhmət olmasa şirkət adınızı daxil edin",
-        "please enter your companyName":"Zəhmət olmasa şirkət adınızı daxil edin",
+        "please enter your companyName": "Zəhmət olmasa şirkət adınızı daxil edin",
         "please enter your phone number": "Zəhmət olmasa telefon nömrənizi daxil edin",
-        "please enter your phone":"Zəhmət olmasa telefon nömrənizi daxil edin",
+        "please enter your phone": "Zəhmət olmasa telefon nömrənizi daxil edin",
         "please enter your message": "Zəhmət olmasa mesajınızı daxil edin",
         "thank you for your message!": "Mesajınız üçün təşəkkür edirik!",
-        "thank you for contacting us. We will contact you as soon as possible.":"Bizimlə əlaqə saxladığınız üçün təşəkkür edirik. Ən qısa zamanda sizinlə əlaqə saxlayacağıq."
+        "thank you for contacting us. We will contact you as soon as possible.": "Bizimlə əlaqə saxladığınız üçün təşəkkür edirik. Ən qısa zamanda sizinlə əlaqə saxlayacağıq."
     },
     "whyUs": {
         "why should you choose us": "Niyə bizi seçməlisiniz"
@@ -93,12 +93,10 @@
         "write to us !": "Bizə yazın !",
         "message": "Mesaj"
     },
-    "techniques":{
-"All":"Hamısı",
-"Excavators":"Ekskavatorlar",
-"Forklifts":"Forkliftlər",
-"Lifting baskets":"Qaldırıcı səbətlər"
-
+    "techniques": {
+        "All": "Hamısı",
+        "Excavators": "Ekskavatorlar",
+        "Forklifts": "Forkliftlər",
+        "Lifting baskets": "Qaldırıcı səbətlər"
     }
-  
 }

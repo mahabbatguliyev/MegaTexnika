@@ -16,8 +16,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "buy your heavy equipment from us": "Buy your heavy equipment from us",
-    "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    "buy_your_heavy_equipment_from_us": "Buy your heavy equipment from us",
+    "lorem_Ipsumis_simply_dummy_text_of_the_printing_and_typesetting_industry._Lorem_Ipsum_has_been_the_industry's_standard_dummy_text_ever_since_the_1500s,_when_an_unknown_printer_took_a_galley_of_type_and_scrambled": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
     "detailed": "Detailed"
   },
   "category": {
