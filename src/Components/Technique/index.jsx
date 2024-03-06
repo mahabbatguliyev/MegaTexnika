@@ -30,7 +30,6 @@ const Technique = () => {
     ]
     useEffect(() => {
         Aos.init({ duration: 3000 });
-        // Aos.refreshHard();
     }, []);
     return (
         <div className="container">
@@ -60,6 +59,5 @@ const Technique = () => {
             </div>
         </div>
     )
-}
-
+} 
 export default Technique

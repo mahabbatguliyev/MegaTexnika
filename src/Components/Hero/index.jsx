@@ -13,8 +13,8 @@ const Hero = () => {
         <div className="container">
             <div className="hero d-flex justify-content-between" data-aos="fade-up">
                 <div className="hero-text">
-                    <h1 className="">{t('buy your heavy equipment from us')}</h1>
-                    <p className="">{t("lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled")}</p>
+                    <h1 className="">{t('buy_your_heavy_equipment_from_us')}</h1>
+                    <p className="">{t("lorem_Ipsumis_simply_dummy_text_of_the_printing_and_typesetting_industry._Lorem_Ipsum_has_been_the_industry's_standard_dummy_text_ever_since_the_1500s,_when_an_unknown_printer_took_a_galley_of_type_and_scrambled")}</p>
                     <Link to={"/haqqımızda"}> <button className='hero-btn'>{t('detailed')}</button></Link>
                 </div>
                 <div className="hero-img">
